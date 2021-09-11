@@ -6,12 +6,15 @@ import { PrimeNGConfig } from "primeng/api";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit{ 
+
+  visibleSidebar2:any;
+  
+
 
   constructor(private primengConfig: PrimeNGConfig) {}
 
   ngOnInit() {
-      this.primengConfig.ripple = true;
+    this.primengConfig.ripple = true;
   }
-
 }

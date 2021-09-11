@@ -13,7 +13,7 @@ const routes: Routes = [
     {path:'certifications',component:CertificationsComponent},
     {path:'contact',component:ContactComponent},
     {path:'portfolio',component:PortfolioComponent},
-    {path:'**',redirectTo:''},
+    {path:'**',redirectTo:'about'},
   ]},
   
 ]
